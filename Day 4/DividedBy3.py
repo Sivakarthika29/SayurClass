@@ -13,3 +13,11 @@ while num>=3:        #loop until the num is less than
     no_of_result+=1
 print(count,"times the number was divided")
 
+# OUTPUT:
+
+# Enter the number:44
+# Enter the divided number:3
+# Result 1 : 14
+# Result 2 : 4
+# Result 3 : 1
+# 3 times the number was divided

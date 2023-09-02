@@ -23,3 +23,15 @@ elif choice==2:
         print(num_3,"is minimum number")
 else:
     print("You are Exit\nTHANK YOU!!!!")
+
+# OUTPUT:
+
+# Enter the 1st number:45
+# Enter the 2nd number:76
+# Enter the 3rd number:12
+# Do you want to find the maximum or minimum of these numbers?
+# 1.Find the maximum number
+# 2.Find the minimum number
+# 3.Exit
+# Enter your choice:1
+# 76 is maximum number

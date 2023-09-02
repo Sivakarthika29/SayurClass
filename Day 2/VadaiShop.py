@@ -14,3 +14,10 @@ soda_amount=float(soda_count*cost_of_one_soda)
 sandwich_amount=float(sandwich_count*cost_of_one_sandwich)
 total_amount=vadai_amount+soda_amount+sandwich_amount
 print("Total amount=",total_amount)
+
+# OUTPUT:
+
+# Number of vadai:4
+# Number of soda:1
+# Number of sandwich:3
+# Total amount= 440.0
