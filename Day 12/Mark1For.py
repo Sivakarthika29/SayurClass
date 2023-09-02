@@ -28,3 +28,21 @@ for i in range(0, len(markList),2):               # 0 , 2 , 4 , 6
     student =student+1
     if i == len(markList)-2:                      # 6 - 2 = 4   # 4 == 4
         break
+
+# OUTPUT:
+
+# Enter your name : Sivashankar 
+# Enter your mark 1 : 98
+# Enter your mark 2 : 97
+# Enter your name : Sivaranjani
+# Enter your mark 1 : 99
+# Enter your mark 2 : 95
+# Enter your name : Sivakarthika
+# Enter your mark 1 : 92
+# Enter your mark 2 : 94
+# Mark 1 for Student 1 is 98.0
+# Mark 2 for Student 1 is 97.0
+# Mark 1 for Student 2 is 99.0
+# Mark 2 for Student 2 is 95.0
+# Mark 1 for Student 3 is 92.0
+# Mark 2 for Student 3 is 94.0
