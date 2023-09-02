@@ -12,3 +12,15 @@ for i in range(1, 9):
             whiteTurn = True
     whiteTurn = not whiteTurn
     print()
+
+
+# OUTPUT:
+
+# ■ B ■ B ■ B ■ B 
+# B ■ B ■ B ■ B ■ 
+# ■ B ■ B ■ B ■ B 
+# B ■ B ■ B ■ B ■ 
+# ■ B ■ B ■ B ■ B 
+# B ■ B ■ B ■ B ■ 
+# ■ B ■ B ■ B ■ B 
+# B ■ B ■ B ■ B ■ 
