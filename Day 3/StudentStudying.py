@@ -23,4 +23,10 @@ if age>=5:
 else:
     print("You are not eligible")
 
+# OUTPUT:
 
+# Enter your name:Sivakarthika
+# Hello Sivakarthika ,what year were you born?
+# 2003
+# Enter the current year:2023
+# You are going to college

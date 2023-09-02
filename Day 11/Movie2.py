@@ -18,3 +18,18 @@ for i in range (1,limit+1):
     if money >= 1000:
         break
 
+# OUTPUT:
+
+# How much money do your parents give you? 56
+# I got 56 Rupees
+# Thank you!!!
+# How much money do your parents give you? 500
+# I got 556 Rupees
+# Thank you!!!
+# How much money do your parents give you? 8
+# How much money do your parents give you? 100
+# I got 656 Rupees
+# Thank you!!!
+# How much money do your parents give you? 50
+# I got 706 Rupees
+# Thank you!!!    
