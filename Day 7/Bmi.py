@@ -27,3 +27,18 @@ if(age>60 and bmi>24.9):
     print("Have a regular workout")
 if(age>10 and bmi>30):
     print("You need to have strict excercies")
+
+
+# OUTPUT:
+
+# Enter your name: Sivakarthika
+# Enter your age: 19
+# Enter your gender: Female
+# Enter your weight in kg: 49
+# Enter your height in cm: 165
+# Name:  Sivakarthika
+# Age:  19
+# Gender:  Female
+# Your Body Mass index is  17.99816345270891
+# You are Underweight
+# Have some fruits to gain weight

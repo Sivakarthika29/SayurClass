@@ -31,6 +31,14 @@ if coin5 != 0:
     print(f"5rs coins = {coin5}")
 
 
+# OUTPUT:
+
+# Enter your amount : 8
+# We need 2 coins
+# 3rs coins = 1  
+# 5rs coins = 1  
+
+
 
 
 

@@ -18,3 +18,10 @@ elif mark1 <= 50 and mark2 <= 50 and mark3 <= 50:
     print("Your Grade is F")
 else:
     print("Your Grade is D")
+
+# OUTPUT:
+
+# Enter your marK 1: 96
+# Enter your marK 2: 95
+# Enter your marK 3: 99
+# Your Grade is B
