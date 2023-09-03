@@ -1,1 +1,0 @@
-#http://www.milkaclarkestrokefoundation.org/uploads/2/4/5/9/2459046/bmi-index_orig.jpg
