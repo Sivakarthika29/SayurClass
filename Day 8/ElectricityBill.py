@@ -61,23 +61,18 @@ elif(option==2):
     print("5.Miscellaneous categories")
     choice=int(input("Enter your choice:"))
     if(choice==1):
-        consumer=input("You are what category of consumer? ")
         energy_charges_per_unit=6.75
 
     elif(choice==2):
-        consumer=input("You are what category of consumer? ")
         energy_charges_per_unit=7.00
 
     elif(choice==3):
-        consumer=input("You are what category of consumer? ")
         energy_charges_per_unit=7.50
 
     elif(choice==4):
-        consumer=input("You are what category of consumer? ")
         energy_charges_per_unit=12.00
 
     elif(choice==5):
-        consumer=input("You are what category of consumer? ")
         energy_charges_per_unit=8.50
 
     else:
