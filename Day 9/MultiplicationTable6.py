@@ -23,3 +23,23 @@ elif choice == 3:
         print(f"{table} * {advanced_count} = {table*advanced_count}")
 else:
     print("Please enter your correct choice")
+
+
+# OUTPUT:
+
+# 1.Only the basic  
+# 2.Only the advance
+# 3.Basic & advance 
+# Enter your choice: 1
+# Enter your table number: 5
+# Table 5    
+# 5 * 1 = 5  
+# 5 * 2 = 10 
+# 5 * 3 = 15 
+# 5 * 4 = 20 
+# 5 * 5 = 25 
+# 5 * 6 = 30 
+# 5 * 7 = 35 
+# 5 * 8 = 40 
+# 5 * 9 = 45 
+# 5 * 10 = 50
