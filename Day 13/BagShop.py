@@ -23,26 +23,44 @@
 redBags, whiteBags = 100, 200
 totalSales , totalBagsSold = 0 , 0
 redBagAmount , whiteBagAmount = 1000, 1500
+noOfRedBags , noOfWhiteBags =0, 0
 
 while (totalSales < 10000 or totalBagsSold < 10):
-    noOfRedBags =int(input("How many Red bags you need? "))
-    noOfWhiteBags =int(input("How many White bags you need? "))
-     
-    amount = (redBagAmount * noOfRedBags) + (whiteBagAmount * noOfWhiteBags)
-    totalSales += amount 
-    totalBagsSold += noOfWhiteBags + noOfRedBags 
-    print("Your amount : " , amount) 
+    saleRedBagAmount , saleWhiteBagAmount = 0, 0
+    print("Available Red Bags : ", redBags)
+    if redBags >0 and redBags <= 100:
+        noOfRedBags =int(input("How many Red bags you need? "))
+        redBags -= noOfRedBags
+        saleRedBagAmount = redBagAmount * noOfRedBags
+    else:
+        print("Red Bags is not Available")
+    
+    print("Available White Bags : ", whiteBags)
+    if  whiteBags >0 and whiteBags <= 200:
+        noOfWhiteBags =int(input("How many White bags you need? "))
+        whiteBags -=  noOfWhiteBags
+        saleWhiteBagAmount = whiteBagAmount * noOfWhiteBags
+        totalAmount = saleRedBagAmount + saleWhiteBagAmount
+        totalSales += totalAmount 
+        totalBagsSold += noOfWhiteBags + noOfRedBags 
+        print("Your amount : " , totalAmount) 
+    else:
+        print("White Bags is not Available")
 
 print ("Total sale amount: ",totalSales)  
 print ("Total No of bags: ",totalBagsSold) 
 
 # OUTPUT:
 
-# How many Red bags you need? 3
-# How many White bags you need? 4
-# Your amount :  9000
-# How many Red bags you need? 2
-# How many White bags you need? 1
-# Your amount :  3500      
-# Total sale amount:  12500
-# Total No of bags:  10 
+# Available Red Bags :  100
+# How many Red bags you need? 5
+# Available White Bags :  200   
+# How many White bags you need? 2
+# Your amount :  8000
+# Available Red Bags :  95    
+# How many Red bags you need? 1
+# Available White Bags :  198   
+# How many White bags you need? 2
+# Your amount :  4000      
+# Total sale amount:  12000
+# Total No of bags:  10
