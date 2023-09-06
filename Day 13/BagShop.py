@@ -23,7 +23,6 @@
 redBags, whiteBags = 100, 200
 totalSales , totalBagsSold = 0 , 0
 redBagAmount , whiteBagAmount = 1000, 1500
-noOfRedBags , noOfWhiteBags =0, 0
 
 while (totalSales < 10000 or totalBagsSold < 10):
     saleRedBagAmount , saleWhiteBagAmount = 0, 0
