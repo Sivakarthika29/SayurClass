@@ -5,13 +5,14 @@
 
 
 line = int(input("Enter the number of lines: "))
+print("Enter space to print $")
 for i in range(line):
-    if input("Enter space to print $") == " ":
+    if input() == " ":
         print(" " * (line-i) + "$ " * (i+1))
     else:
         break
 for j in range(line - 1):
-    if input("Enter space to print $") == " ":
+    if input() == " ":
         print(" " * (j+2) + "$ " * (line -1-j) )
     else:
         break
@@ -19,21 +20,22 @@ for j in range(line - 1):
 # OUTPUT:
 
 # Enter the number of lines: 5
-# Enter space to print $ 
-#      $
-# Enter space to print $ 
-#     $ $
-# Enter space to print $ 
-#    $ $ $
-# Enter space to print $ 
-#   $ $ $ $ 
-# Enter space to print $ 
-#  $ $ $ $ $ 
-# Enter space to print $ 
-#   $ $ $ $ 
-# Enter space to print $ 
-#    $ $ $ 
-# Enter space to print $ 
+# Enter space to print $
+ 
+#      $ 
+ 
 #     $ $ 
-# Enter space to print $ 
+ 
+#    $ $ $ 
+ 
+#   $ $ $ $ 
+ 
+#  $ $ $ $ $ 
+ 
+#   $ $ $ $ 
+ 
+#    $ $ $ 
+ 
+#     $ $ 
+ 
 #      $ 
