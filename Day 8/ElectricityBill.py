@@ -12,7 +12,6 @@ if option==1:
     fixed_charges_for_two_months_after_Govt_subsity = 0
     if(units >arrayofunits[0] and units <= arrayofunits[4]):
         print("Consumption upto 500 units 2 monthly")
-
         if(units > arrayofunits[0] and units <= arrayofunits[1]):
             bill=energy_charges_per_unit[0]
             print("Upto 100 units free scheme")
