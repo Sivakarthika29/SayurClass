@@ -16,3 +16,9 @@ print(ans)
 print(name_1,",",name_2,"length is equal")
 
 
+# OUTPUT:
+
+# Enter the first name:cat
+# Enter the second name:arrow
+# cataa
+# cataa , arrow length is equal
