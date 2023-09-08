@@ -6,16 +6,21 @@
 
 line = int(input("Enter the number of lines: "))
 print("Enter space to print $")
-for i in range(line):
+i , j = 0 , 0
+while i < line:
     if input() == " ":
         print(" " * (line-i) + "$ " * (i+1))
     else:
         break
-for j in range(line - 1):
+    i=i+1
+
+while j < (line-1):
     if input() == " ":
         print(" " * (j+2) + "$ " * (line -1-j) )
     else:
         break
+    j=j+1
+
 
 # OUTPUT:
 
