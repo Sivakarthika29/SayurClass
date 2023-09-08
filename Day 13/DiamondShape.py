@@ -1,4 +1,5 @@
 ######## Problem 1 ###############
+
 #Write a program that prints out a diamond shape using $.
 #After printing each line, wait for user input. If the user presses space, continue
 #If the users presses any other key, stop printing. Maximum 10 lines
