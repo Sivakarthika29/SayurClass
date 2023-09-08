@@ -18,5 +18,3 @@ print("Number of times each word is :\n "+ str(all_freq))
 # Enter the sentence:my name is siva my father name is sekar
 # Number of times each word is :
 # {'my': 2, 'name': 2, 'is': 2, 'siva': 1, 'father': 1, 'sekar': 1}
-
-
