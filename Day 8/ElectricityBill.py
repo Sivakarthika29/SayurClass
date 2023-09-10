@@ -16,10 +16,10 @@ if option==1:
             bill=energy_charges_per_unit[0]
             print("Upto 100 units free scheme")
 
-        elif(units > arrayofunits[1] and units <= arrayofunits[2]):
+        elif(units <= arrayofunits[2]):
             bill=(100*0)+(units-100)*energy_charges_per_unit[1]
 
-        elif(units > arrayofunits[2] and units <= arrayofunits[3]):
+        elif(units <= arrayofunits[3]):
             bill=(100*0)+(100*2.25)+(units-200)*energy_charges_per_unit[2]
 
         else:
@@ -34,16 +34,16 @@ if option==1:
         elif(units > arrayofunits[1] and units <= arrayofunits[3]):
             bill=(100*0)+(units-100)*energy_charges_per_unit[2]
 
-        elif(units > arrayofunits[3] and units <= arrayofunits[4]):
+        elif(units <= arrayofunits[4]):
             bill=(100*0)+(400-100)*4.50+(units-400)*energy_charges_per_unit[3]
 
-        elif(units > arrayofunits[4] and units <= arrayofunits[5]):
+        elif(units <= arrayofunits[5]):
             bill=(100*0)+(400-100)*4.50+(500-400)*6.00+(units-500)*energy_charges_per_unit[4]
 
-        elif(units > arrayofunits[5] and units <= arrayofunits[6]):
+        elif(units <= arrayofunits[6]):
             bill=(100*0)+(400-100)*4.50+(500-400)*6.00+(600-500)*8.00+(units-600)*energy_charges_per_unit[5]
 
-        elif(units > arrayofunits[6] and units <=arrayofunits[7]):
+        elif(units <=arrayofunits[7]):
             bill=(100*0)+(400-100)*4.50+(500-400)*6.00+(600-500)*8.00+(800-600)*9.00+(units-800)*energy_charges_per_unit[6]
 
         else:
