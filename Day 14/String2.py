@@ -11,17 +11,15 @@
         
         
 myName = input("Enter the name : ")
-ans = ""
+result = ""
 for letter in myName:
-    ans += letter
-for x in range(len(myName)):
-    for y in range(x + 1):
-        print(ans[y], end=" ")
-    print()
+    result += letter
+    print(result , end="\n")
+print()
 
 # OUTPUT:
 
 # Enter the name : RAM
-# R     
-# R A   
-# R A M 
+# R  
+# RA 
+# RAM
