@@ -13,8 +13,15 @@
 myName = input("Enter the name : ")
 ans = ""
 for letter in myName:
-    ans = ans + letter
+    ans += letter
 for x in range(len(myName)):
     for y in range(x + 1):
         print(ans[y], end=" ")
     print()
+
+# OUTPUT:
+
+# Enter the name : RAM
+# R     
+# R A   
+# R A M 
