@@ -22,19 +22,19 @@
 inputSentence = input("Enter the Sentence : ")
 pigLatinKey = 'ay'
 vowels = ['a','e','i','o','u']
-constants = ""
+consonants = ""
 for word in inputSentence.split(): 
      first_vowel_index = 0
     
      for index, char in enumerate(word): 
           if char in vowels:       #check if the char is vowel or not
-               constants += char
+               consonants += char
                first_vowel_index = index
                break
           else:
-               constants += char
-     print(word[first_vowel_index+1:] + constants + pigLatinKey ,end=" ")
-     constants = ""
+               consonants += char
+     print(word[first_vowel_index+1:] + consonants + pigLatinKey ,end=" ")
+     consonants = ""
 
 # OUTPUT:
 
