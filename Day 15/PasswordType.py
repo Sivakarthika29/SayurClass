@@ -15,10 +15,11 @@ number_of_splchar = len(re.findall(r'[^a-zA-Z0-9]', password))
 if (lenOfPassword >= 8):
     if (lenOfPassword == number_of_alpha) or (lenOfPassword == number_of_numeric) or (lenOfPassword == number_of_splchar):
         print("Your Password is Weak")
-    elif (number_of_alpha >= 3) and (number_of_numeric >= 2) and (number_of_splchar >=1) and (lenOfPassword >= 16):
-        print("Your Password is Very Strong")
     elif (number_of_alpha >= 3) and (number_of_numeric >= 2) and (number_of_splchar >=1):
-        print("Your Password is Strong")
+        if (lenOfPassword >= 16):
+            print("Your Password is Very Strong")
+        else:
+            print("Your Password is Strong")
     elif (number_of_alpha >= 1) and (number_of_numeric >= 1) and (number_of_splchar >=1):
         print("Your Password is Ok")
 else:
