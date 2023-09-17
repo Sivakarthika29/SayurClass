@@ -16,7 +16,7 @@ if (lenOfPassword >= 8):
     if (lenOfPassword == number_of_alpha) or (lenOfPassword == number_of_numeric) or (lenOfPassword == number_of_splchar):
         print("Your Password is Weak")
     elif (number_of_alpha >= 3) and (number_of_numeric >= 2) and (number_of_splchar >=1):
-        if (lenOfPassword >= 16):
+        if (lenOfPassword >= 16) :
             print("Your Password is Very Strong")
         else:
             print("Your Password is Strong")
