@@ -34,3 +34,25 @@ print(f"Number is reached 1 after these number of iteration : {count}")
 # Enter the number : 22
 # Number is reached 1 after these number of iteration : 15
 
+num = []
+count = []
+for i in range(2):
+    n1 = int(input("Enter the number : "))
+    num.append(n1)
+
+for n in num:
+    c=0
+    while n != 1:
+        if n % 2 == 0:
+            n = (n//2)
+        else:
+            n = 3*n+1
+        c +=1
+    count.append(c)
+minimum_count = min(count)
+print(f"The number {num[count.index(minimum_count)]} has undergone minimum iterations {minimum_count}")
+
+# OUTPUT:
+# Enter the number : 21
+# Enter the number : 22
+# The number 21 has undergone minimum iterations 7
