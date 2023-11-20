@@ -1,1 +1,0 @@
-# next pattern is - empty diamond
