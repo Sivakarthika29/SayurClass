@@ -9,18 +9,18 @@ Print the name of the students who got A in all subjects or atleast one A and th
 Try to use only one if statement. '''
 
 stud_name = ["Karthika","Ranjani","Shankar","Siva","Sathish"]
-marks = [
-            [98, 90, 86],       # Karthika marks
-            [64, 80, 100],      # Ranjani marks
-            [96, 96, 96],       # Shankar marks
-            [98, 48, 88],       # Siva marks
-            [23, 73, 83]        # Sathish marks
-        ]
+Karthika_marks = [98, 90, 86]
+Ranjani_marks = [64, 80, 100]
+Shankar_marks = [96, 96, 96]
+Siva_marks = [98, 48, 88]
+Sathish_marks = [23, 73, 83]
+all_marks = [ Karthika_marks , Ranjani_marks , Shankar_marks , Siva_marks , Sathish_marks ]
 best_stud_list = []
 j=0
+
 for i in range(len(stud_name)):
-    student = marks[i]
-    if (student[j] >= 90 or student[j+1] >= 90 or student[j+2] >= 90) and (student[j] >= 80 and student[j+1] >= 80 and student[j+2] >= 80):
+    marks = all_marks[i]
+    if (marks[j] >= 90 and marks[j+1] >= 90 and marks[j+2] >= 90) or (marks[j] >= 80 and marks[j+1] >= 80 and marks[j+2] >= 80):
         best_stud_list.append(stud_name[i])
 print(f"Names of Student scoring A and B grade {best_stud_list}")
 
