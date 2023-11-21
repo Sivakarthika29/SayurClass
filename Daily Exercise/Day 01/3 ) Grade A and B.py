@@ -20,7 +20,7 @@ j=0
 
 for i in range(len(stud_name)):
     marks = all_marks[i]
-    if (marks[j] >= 90 and marks[j+1] >= 90 and marks[j+2] >= 90) or (marks[j] >= 80 and marks[j+1] >= 80 and marks[j+2] >= 80):
+    if (marks[j] >= 90 or marks[j+1] >= 90 or marks[j+2] >= 90) and (marks[j] >= 80 and marks[j+1] >= 80 and marks[j+2] >= 80):
         best_stud_list.append(stud_name[i])
 print(f"Names of Student scoring A and B grade {best_stud_list}")
 
