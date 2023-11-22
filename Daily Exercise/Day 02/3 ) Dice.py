@@ -6,7 +6,8 @@ If the number is 5, then 3 points are added. The game ends when the user has 50 
 
 import random
 points = 0
-while points <= 50:
+winning_points = 50
+while points < winning_points:
     dice_list = [0, 1, 2, 3, 4, 5, 6]                    # Another method(There is no need to define the list.)
     random_no = random.choice(dice_list)                 # random_no = random.randint(0, 6)
     print(f"Your points are {points}")
