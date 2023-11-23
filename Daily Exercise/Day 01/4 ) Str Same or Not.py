@@ -13,20 +13,24 @@ there are many simple answers. you can try with slice function '''
 is_same = True
 string_1 = input("Enter the String 1 : ")
 string_2 = input("Enter the String 2 : ")
-y = string_1.index(string_2[0])
-for i in range(len(string_1)):
-    if (y != len(string_1)-1):
-        if (string_1[y] == string_2[i]):
-            y += 1
+if (len(string_1) == len(string_2)):
+    y = string_1.index(string_2[0])
+    for i in range(len(string_1)):
+        if (y != len(string_1)-1):
+            if (string_1[y] == string_2[i]):
+                y += 1
+            else:
+                is_same = False
+                break
         else:
-            is_same = False
-            break
+            y = 0
+    if(is_same):
+        print(f"{string_1} is same as {string_2}")
     else:
-        y = 0
-if(is_same):
-    print(f"{string_1} is same as {string_2}")
+        print(f"{string_1} is not same as {string_2}")
 else:
     print(f"{string_1} is not same as {string_2}")
+    exit(0)
 
 ''' 
 OUTPUT:
