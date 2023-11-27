@@ -13,9 +13,10 @@ start = 'a'
 end = 'g'
 str = start
 print(str)
-for i in range(ord(start)+1,ord(end)+1):
+for i in range(ord(start)+1,ord(end)+1):    # 98 to 103
     str = str + chr(i) + str
     print(str)
+
 
 '''
 OUTPUT:
