@@ -12,23 +12,25 @@ noOfOccurrences = {}
 try:
     input_file = open('SayurClass/Daily Exercise/Day 03/input_text.txt','r')
     passage = input_file.read()
+    print(passage)
+
+    split_pass = passage.split(" ")
+    for i in range(len(split_pass)):
+        if len(split_pass[i]) == 4:
+            li.append(split_pass[i])
+
+    for j in li:
+        if j in noOfOccurrences:
+            noOfOccurrences[j] += 1
+        else:
+            noOfOccurrences[j] = 1
+    print(noOfOccurrences)
+
 except FileNotFoundError:
     print("File Not Found")
 finally:
     input_file.close()
-print(passage)
 
-split_pass = passage.split(" ")
-for i in range(len(split_pass)):
-    if len(split_pass[i]) == 4:
-        li.append(split_pass[i])
-
-for j in li:
-    if j in noOfOccurrences:
-        noOfOccurrences[j] += 1
-    else:
-        noOfOccurrences[j] = 1
-print(noOfOccurrences)
 
 ''' OUTPUT:
 
